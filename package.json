@@ -1,0 +1,27 @@
+{
+  "name": "vite-vue-router",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/compiler-sfc": "^3.2.6",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^2.8.6"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "sass": "^1.58.0",
+    "swiper": "^9.0.4",
+    "tailwind-scrollbar": "^2.1.0",
+    "three": "0.134",
+    "troisjs": "^0.3.4",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.11"
+  }
+}
