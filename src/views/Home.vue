@@ -15,7 +15,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
 </script>
 
 <template>
@@ -93,7 +92,7 @@ import 'swiper/css/scrollbar';
     </div>
   </div>
 
-  <swiper :modules="modules" :slides-per-view="1" :space-between="50" navigation :pagination="{ clickable: true }"
+  <swiper class="h-96" :modules="modules" :slides-per-view="1" :space-between="50" navigation :pagination="true"
     :scrollbar="{ draggable: true }" @swiper="onSwiper" @slideChange="onSlideChange">
     <swiper-slide>Slide 1</swiper-slide>
     <swiper-slide>Slide 2</swiper-slide>
@@ -151,6 +150,7 @@ export default {
 .bg2 
     background: url('../src/assets/bg_site2.jpg') no-repeat
     background-size: 100% 100%
+
 
 </style>
 
